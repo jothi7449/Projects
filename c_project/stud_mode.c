@@ -50,11 +50,11 @@ void modify_name(st** ptr,char *p)
         }
         temp = temp->next;
     }
-   green sp puts("your enterd data is only one time there:");yellow
+  // green sp puts("your enterd data is only one time there:");yellow
 
     if (count > 1) 
     {  
-     sp  pf("Similar names exist\n");
+    red sp  pf("Similar names exist\n");
         temp = *ptr;
         while (temp != NULL) 
         {  

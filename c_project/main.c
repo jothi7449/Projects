@@ -31,9 +31,9 @@ int main()
 		do{
                 add_new_record(&hptr);
 		blue 
-		sp pf("DO YOU WANT ADD AGAIN  :[y/no]\n"); nor
+		sp pf("DO YOU WANT ADD AGAIN  :[a/n]\n"); nor
 		sf(" %c",&op1);
-		}while((op1=='y')||(op1=='Y'));
+		}while((op1=='a')||(op1=='A'));
                 break;
         case 's':
         case 'S':
